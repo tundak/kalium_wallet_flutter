@@ -253,7 +253,7 @@ class _AppHomePageState extends State<AppHomePage>
     bool contactAdded = await sl.get<SharedPrefsUtil>().getFirstContactAdded();
     if (!contactAdded) {
       bool addressExists = await sl.get<DBHelper>().contactExistsWithAddress(
-          "ban_1ka1ium4pfue3uxtntqsrib8mumxgazsjf58gidh1xeo5te3whsq8z476goo");
+          "bcb_1pwao33mhd164nptat8tq4rdeerpi6pdh7ewophfqknt8m5mmyudckpjary7");
       if (addressExists) {
         return;
       }
@@ -266,7 +266,7 @@ class _AppHomePageState extends State<AppHomePage>
       Contact c = Contact(
           name: "@KaliumDonations",
           address:
-              "ban_1ka1ium4pfue3uxtntqsrib8mumxgazsjf58gidh1xeo5te3whsq8z476goo");
+              "bcb_1pwao33mhd164nptat8tq4rdeerpi6pdh7ewophfqknt8m5mmyudckpjary7");
       await sl.get<DBHelper>().saveContact(c);
     }
   }

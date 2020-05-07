@@ -6,7 +6,7 @@ import 'package:kalium_wallet_flutter/util/numberutil.dart';
 
 /// Main wallet object that's passed around the app via state
 class AppWallet {
-  static const String defaultRepresentative = 'ban_1ka1ium4pfue3uxtntqsrib8mumxgazsjf58gidh1xeo5te3whsq8z476goo';
+  static const String defaultRepresentative = 'bcb_1pwao33mhd164nptat8tq4rdeerpi6pdh7ewophfqknt8m5mmyudckpjary7';
 
   bool _loading; // Whether or not app is initially loading
   bool _historyLoading; // Whether or not we have received initial account history response
