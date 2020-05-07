@@ -27,7 +27,7 @@ dependencies:
   # Nano core functions
   flutter_nano_ffi:
     git:
-      url: https://github.com/tundak/nanodart.git
+      url: https://github.com/tundak/flutter_nano_ffi.git
       ref: master
 
   # Shared prefs
